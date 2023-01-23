@@ -81,11 +81,13 @@ nav {
 
 .blue {
     width: 60%;
+    /* DEBUG */
     background-color: blue;
 }
 
 .pink {
     width: 40%;
+    /* DEBUG */
     background-color: pink;
 }
 
@@ -100,6 +102,7 @@ nav {
 /* FOOTER STYLE */
 
 footer {
+    /* DEBUG */
     background-color: gray;
 }
 
@@ -112,8 +115,8 @@ footer {
 
 .aqua {
     width: 15%;
+    /* DEBUG */
     background-color: aqua;
-
 }
 
 #foot-link {
