@@ -7,26 +7,39 @@
 
 /* HEADER STYLE */
 
-nav {
+header {
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+/* topbar */
+#topbar {
     width: 100%;
+    padding: 1% 6%;
     display: flex;
     justify-content: center;
-    padding: 1% 6%;
-    /* DEBUG */
-    background-color: pink;
+    align-items: flex-start;
 }
 
 #head-logo{
     width: 25%;
-    text-align: start;
+    padding: 1% 0;
     /* DEBUG */
     border: 1px solid black;
     background-color: yellow;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: pink;
+}
+
 #head-link{
     width: 50%;
-    text-align: center;
+    padding: 1% 6%;
     /* DEBUG */
     border: 1px solid black;
     background-color: yellow;
@@ -34,12 +47,14 @@ nav {
 
 #head-login{
     width: 25%;
+    padding: 1% 0;
     text-align: end;
     /* DEBUG */
     border: 1px solid black;
     background-color: yellow;
 }
 
+/* introcontainer */
 #head-introcontainer{
     width: 100%;
     padding: 1% 6%;
@@ -47,7 +62,7 @@ nav {
     justify-content: center;
     /* DEBUG */
     height: 200px;
-    background-color: lightblue;
+    background-color: blue;
 }
 
 #introduction {
