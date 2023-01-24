@@ -16,11 +16,10 @@ header {
 #topbar {
     width: 100%;
     padding: 1% 6%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    display: flex;  
 }
 
+/* logo */
 #head-logo{
     width: 25%;
     padding: 1% 0;
@@ -29,6 +28,7 @@ header {
     background-color: yellow;
 }
 
+/* links NAV */
 nav {
     width: 100%;
     display: flex;
@@ -45,6 +45,11 @@ nav {
     background-color: yellow;
 }
 
+#head-link a{
+    padding: 0 2%;
+}
+
+/* login */
 #head-login{
     width: 25%;
     padding: 1% 0;
